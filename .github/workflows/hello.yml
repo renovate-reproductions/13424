@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@2 # if (isNotFork)
+        uses: actions/checkout@v2 # if (isNotFork)
 
       - name: Print Hello World
         run: echo Hello World
